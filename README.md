@@ -6,7 +6,9 @@
 
 ## Pasos previos ⚙️
 
-* [Ambiente de anaconda](https://github.com/miryamelizabeth/DepressionSocialMedia/blob/main/anaconda-env.txt)
+* Installar Anaconda ([Windows](https://docs.anaconda.com/free/anaconda/getting-started/install/windows/) / [macOS](https://docs.anaconda.com/free/anaconda/getting-started/install/mac-os/))
+* Utilizando Anaconda prompt crear ambiente utilizando los siguientes [comandos](https://github.com/miryamelizabeth/DepressionSocialMedia/blob/main/anaconda-env.txt)
+* [Python for Visual Studio Code](https://docs.anaconda.com/free/anaconda/ide-tutorials/python-vsc/)
 
 ## Recolección de datos ⛏️
 
