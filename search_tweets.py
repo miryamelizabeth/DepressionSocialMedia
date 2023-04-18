@@ -82,8 +82,8 @@ def processTweets(response_lst, filename_save):
                                     'user_description': user.description,
                                     'user_profile_image_url': user.profile_image_url,
                                     'user_location': user.location,
-                                    'user_followers': user.public_metrics['followers_count'],
-                                    'user_following': user.public_metrics['following_count'],
+                                    'user_followers_count': user.public_metrics['followers_count'],
+                                    'user_friends_count': user.public_metrics['following_count'],
                                     'user_tweet_count': user.public_metrics['tweet_count']
                                 }
     
@@ -126,8 +126,8 @@ def processTweets(response_lst, filename_save):
                 'user_description': author_info['user_description'],
                 'user_profile_image_url': author_info['user_profile_image_url'],
                 'user_location': author_info['user_location'],
-                'user_followers': author_info['user_followers'],
-                'user_following': author_info['user_following'],
+                'user_followers_count': author_info['user_followers_count'],
+                'user_friends_count': author_info['user_friends_count'],
                 'user_tweet_count': author_info['user_tweet_count'],
                 'place_id': place_info['place_id'],
                 'place_name': place_info['place_name'],
