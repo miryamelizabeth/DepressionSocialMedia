@@ -149,11 +149,12 @@ def processTweets(response_lst, destiny_directory):
 
 
 
+
+
 # ======================================================================
-bearer_token = 'XXX'
+bearer_token = ''
 
 client = getAuthentication(bearer_token)
-
 
 
 now = datetime.datetime.now().strftime('%d-%m-%Y %H:%M:%S')
