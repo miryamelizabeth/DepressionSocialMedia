@@ -1,0 +1,26 @@
+conda create --name ucdavis python=3.8.5
+
+conda install -c conda-forge scikit-learn
+
+python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+conda install seaborn
+conda install -c conda-forge statsmodels
+
+conda install -c conda-forge spacy
+python -m spacy download en_core_web_sm
+
+pip install -U textblob
+pip install mlxtend
+pip install pycm
+
+pip install tweepy
+
+pip install pysentimiento
+
+conda install -c anaconda py-xgboost
+
+pip install nltk
+python
+>> import nltk
+>> nltk.download()
